@@ -1,0 +1,7 @@
+-swf9 bin/HXMP.swf
+-swf-version 10
+-swf-header 320:240:60:ffffff
+-swf-lib assets.swf
+-main Main
+-cp src
+-debug

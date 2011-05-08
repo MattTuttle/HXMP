@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<shx:resource version="9" compress="true"
+    xmlns:shx="http://mindless-labs.com/samhaxe"
+    xmlns:bin="http://mindless-labs.com/samhaxe/modules/Binary"
+    xmlns:img="http://mindless-labs.com/samhaxe/modules/Image"
+    xmlns:snd="http://mindless-labs.com/samhaxe/modules/Sound"
+    xmlns:swf="http://mindless-labs.com/samhaxe/modules/Swf"
+    xmlns:font="http://mindless-labs.com/samhaxe/modules/Font"
+    xmlns:comp0="http://mindless-labs.com/samhaxe/modules/Compose#1.0"
+    xmlns:comp1="http://mindless-labs.com/samhaxe/modules/Compose#1.1"
+>
+  <shx:frame>
+    <bin:binary class="MusicTest" import="assets/mod/houseout.mod" genclass="symbolAndClass" />
+	<bin:binary class="ModTest" import="assets/xm/crm_hymn.xm" genclass="symbolAndClass" />
+	<bin:binary class="hxmp.audio.output.SWF" import="src/hxmp/audio/output/swf.bin" genclass="symbolAndClass" />
+  </shx:frame>
+</shx:resource>
